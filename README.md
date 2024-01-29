@@ -1,7 +1,7 @@
 # Arrays1
 ------- 
 * Your code should be written in the ./src/main/java/Assignment.java file.
-* There are 10 questions, each with a method for you to implement.
+* There are 12 questions, each with a method for you to implement.
 * Your code will be auto tested.
 
 Directions:
