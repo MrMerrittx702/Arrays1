@@ -1,9 +1,9 @@
 # Arrays1
 ------- 
-*Your code should be written in the ./src/main/java/Assignment.java file.
-*There are 10 questions, each with a method for you to implement.
-*You may only used while loops to solve each of the problems.
-*Your code will be auto tested.
+* Your code should be written in the ./src/main/java/Assignment.java file.
+* There are 10 questions, each with a method for you to implement.
+* You may only used while loops to solve each of the problems.
+* Your code will be auto tested.
 
 Directions:
 THE USE OF ARRAYLISTS (or any other collection)IS OFF LIMITS FOR THIS ASSIGNMENT.
