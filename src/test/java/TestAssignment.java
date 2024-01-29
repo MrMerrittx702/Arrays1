@@ -118,7 +118,7 @@ class TestAssignment {
         arrays[9] = new String[]{"Open", "Close", "Save"};
         
         for(int i = 0; i < arrays.length; i++) {
-        	int randIndex = random.nextInt(0,arrays[i].length);
+        	int randIndex = random.nextInt(arrays[i].length);
         	Assignment.changeNthElement(arrays[i],randIndex,"Hello World");
         	assertEquals(arrays[i][randIndex],"Hello World");
         }
