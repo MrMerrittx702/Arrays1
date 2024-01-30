@@ -17,12 +17,12 @@ public class Assignment {
 	 * 		Do not include a new line in your output.
 	 */
     public static void location(int[] array) {
-
+	System.out.print(array);
     }
 
     /** 2. Implement the method below to return an integer array of size n. */
     public static int[] makeArray(int n) {
- 
+ 	int[] ape = new int[n];
     }
 
     /**
@@ -35,7 +35,14 @@ public class Assignment {
      * Radiant
      */
     public static String[] initArray() {
-	    
+	String[] mrMerritt = new int[6];
+	mrMerritt[0] = "Eclipse";
+	mrMerritt[1] = "Velocity";
+	mrMerritt[2] = "Whisper";
+	mrMerritt[3] = "Zephyr";
+	mrMerritt[4] = "Quasar";
+	mrMerritt[5] = "Radiant";
+	return mrMerritt;
     }
 
     /**
@@ -43,7 +50,12 @@ public class Assignment {
      * Your code must include the built-in attribute to return the length of an array.
      */
     public static int arrayLength(String[] array) {
-     
+	int counter = 0;
+	for(i = 0; i < array.size; i++) {
+	    counter++;
+	}
+	return counter;
+	    
     }
 
     /**
@@ -51,7 +63,12 @@ public class Assignment {
      * Your code must include the built-in attribute to return the length of an array.
      */
     public static int lastIndex(String[] array) {
- 
+ 	String lastInd = array.size-1;
+	int counter = 0;
+	for(i = 0; i < array.size; i++) {
+	     counter++;
+	}
+	return lastInd;
     }
 
     /**
@@ -59,7 +76,7 @@ public class Assignment {
      * Your code must include the built-in method to return the length of an array.
      */
     public static void changeNthElement(String[] array, int n, String str) {
-
+	
     }
 
     /** 7. Implement the method below using a while loop to print out each element. 
