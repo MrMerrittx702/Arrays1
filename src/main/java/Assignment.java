@@ -76,28 +76,36 @@ public class Assignment {
      * Your code must include the built-in method to return the length of an array.
      */
     public static void changeNthElement(String[] array, int n, String str) {
-	
+	array[n] = str;
     }
 
     /** 7. Implement the method below using a while loop to print out each element. 
      * 			Include a new line after each element.
      */
     public static void printArrayWhile(String[] array) {
-
+	    int counter = 0;
+	    while(counter < array.size) {
+		System.out.println(array[counter])
+		counter++;
+	    }
     }
 
     /** 8. Implement the method below using a For loop to print out each element of array. 
      * 		Include a new line after each element.
      */
     public static void printArrayFor(String[] array) {
-
+	for(int i = 0; i < array.size; i++){
+	    System.out.println(array[i])
+	}
     }
 
     /** 9. Implement the method below using an enhanced/for each loop to print out each element of array. 
      * 		Include a new line after each element.
      */
     public static void printArrayForEach(String[] array) {
-
+	for(int i = 0; array) {
+	    System.out.println(array[i]);
+	}
     }
 
     /**
@@ -105,7 +113,11 @@ public class Assignment {
      * 		Return the new array.
      */
     public static int[] reverseArray(int[] array) {
-
+	int[] lister = new array.size;
+	for(int i = array.size; i < 0; i -= 1){
+	    lister.add(array[i]);
+	}
+	return lister;
     }
 
     /**
@@ -113,7 +125,10 @@ public class Assignment {
      * 		Return the new array.
      */
     public static String[] halfArray(String[] array) {
-
+	int[] lister2 = new array.size/2;
+	for(int i = 0; i < array.size/2; i++) {
+	    liser2.add(array[i]);
+	}
     }
 
     /**
@@ -127,6 +142,15 @@ public class Assignment {
      * 		{ //implementation not shown }
      */
     public static Person[] createPersonArray(String[] names, int[] ages) {
+	public Person(String name, int age) {
+	       this.name = name;
+	       this.age = age;
+	}
+	Person[] people = new Person[names.length];
+	for(int i = 0; i < names.length; i++) {
+	    people[i] = new Person[names[i], ages[i]); 
+	}
+	return people;
 
     }
 }
